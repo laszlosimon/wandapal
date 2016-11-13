@@ -1,0 +1,110 @@
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.half {
+  width: 100%;
+  -webkit-flex-basis: 57.14286vh;
+     
+          flex-basis: 57.14286vh;
+ 
+  -webkit-flex-grow: 1;
+     
+          flex-grow: 1;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.half {
+  position: relative;
+  font: 600 32px Poppins, sans-serif;
+  color: #f6e8ea;
+  background: url("wedding.jpg") center center no-repeat;
+    background-size: cover;
+    color:black;
+    opacity:0.5;
+   
+    
+    
+    
+    
+}
+.half + .half {
+  background: url("uszaslogo.jpg") center center no-repeat;
+  background-size: cover;
+    color:white;
+    opacity:0.5;
+
+    
+   
+}
+h1{
+    text-align:center;
+}
+
+.megnez{
+    font-size:20px;
+}
+
+
+a.swim{
+    color:white;
+}
+
+a.cta {
+  display: block;
+  position: absolute;
+  height: 50px;
+  line-height: 50px;
+  width: 120px;
+  text-align: center;
+ 
+  text-decoration: none;
+  left: 50%;
+  bottom: 20%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border: 2px solid #fff;
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+a.cta:before {
+  content: "";
+  background: #fff;
+  height: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: 300ms all ease-in-out;
+  transition: 300ms all ease-in-out;
+}
+a.cta:hover:before {
+  height: 4px;
+}
+
+a.wed:focus, a.wed:hover {
+    color: #929441;
+    background-color:#E6A8A5;
+    text-decoration: none;
+  }
+a.swim:focus, a.swim:hover {
+    color: grey;
+    text-decoration: none;
+    background-color:#93c9ff;
+  }
+
+
+

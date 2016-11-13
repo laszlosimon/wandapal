@@ -1,0 +1,16 @@
+.w3-red, .w3-hover-red:hover {
+    color: #fff!important;
+    background-color:cornflowerblue!important;
+}
+.lista{
+    list-style: none;
+}
+.kep{
+    width: 75%;
+    height: 75%;
+}
+.hatter {
+	background-image: url(uszaslogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
